@@ -1,5 +1,5 @@
 const http = require('http')
-const port = '5000'
+const port = '80'
 
 const app = new http.Server()
 
