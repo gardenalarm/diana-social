@@ -8,7 +8,7 @@ app.on('request', (req, res) => {
   let ip = req.remoteAddress
   let url = req.url
   res.writeHead(200, { 'Content-Type': 'text/plain' })
-  res.write('ok')
+  res.write(req.method)
   res.end('\n')
 });
 
